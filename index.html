@@ -1,17 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8"> <title>Hope For Africa</title>
+    <link rel="stylesheet" href="styles.css"> </head>
     <body>
 
-        <header>
-            <nav id="navigation">
-                <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Tours to Africa</li>
-                    <li>Sankofa EcoVillage</li>
-                    <li>Contact</li>
+        <header id="home">
+            <nav id="navbar">
+                <a href="#home"><img src="images/logo.jpg" alt="Hope for Africa Logo"></a> 
+                <ul> 
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#tours">Tours to Africa</a></li>
+                    <li><a href="#ecovillage">Sankofa EcoVillage</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
+        <section id="hero"> 
+            <div class="hero-content">
+                <h1 id="hero-header">A New Horizon</h1>
+                <p>
+                    Empowering sustainable development in Africa through international collaboration and leadership since 1996.
+                </p>
+                <a href="#projects" class="cta-btn">Projects</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Who We Are</h2>
+            <p>
+                Hope for Africa is an international non-governmental organization (NGO) in special consultative status with the Economic and Social Council of the United Nations.
+            </p>
+        </section>
+
+        <section id="ecovillage">
+            <div class="ecovillage-text">
+                <h2>Sankofa EcoVillage</h2>
+                <p>
+                    From ancient to modern times, man has lived in village societies in sustainable harmony with nature...
+                </p>
+            </div>
+            <div class="ecovillage-image"> 
+                <img src="images/village.jpg" alt="Sankofa EcoVillage"> 
+            </div> 
+        </section>
+
+        <section id="projects">
+            <h2>Current Projects & Impact</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Clean Water Initiative</h3>
+                    <p>Providing reliable infrastructure and water filtration systems to rural communities.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Sustainable Agriculture</h3>
+                    <p>Training local leaders in regenerative farming techniques to ensure food security.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h2>Get Involved</h2>
+            <p>Connect with us to learn more about our upcoming tours and collaborative programs.</p>
+            
+            <form id="contact-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Join Us</button>
+            </form>
+            
+            <small>&copy; 2026 Hope For Africa. All rights reserved.</small>
+        </footer>
+
     </body>
 </html>
